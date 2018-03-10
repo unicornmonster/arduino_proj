@@ -15,14 +15,21 @@ This is a quick DIY Arduino intruder alarm, based on the project by Wirebeings:
  Parts used:
  Arduino MKR1000 (with headers) from Sparkfun (approx $36): 
  https://www.sparkfun.com/products/14393?gclid=EAIaIQobChMI2_2nx7Pe2QIVCbbACh3sQAQOEAAYASAAEgJB1vD_BwE
+ Schematic: https://cdn.sparkfun.com/assets/2/7/0/7/4/MKR1000-schematic.pdf
+ 
  
  Ultrasonic Sensor - HC-SR04 from Sparkfun (approximately $4)
  https://www.sparkfun.com/products/13959
+ Datasheet: https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf
  
  A small breadboard (approximately $4)
  https://www.sparkfun.com/products/12045
  
  4 wires, 2 resistors (27k, 15k - any 1/1.9 ratio over 1k should work) (a few bucks)
+ I used this to calculate what resistors to use:
+ http://www.ohmslawcalculator.com/voltage-divider-calculator
+ (the source (the ultrasonic sensor) is 5 volts, the output needs to be around 3 volts (the MKR1000
+ Circuit Operating Voltage is 3.3V))
  
  Total cost for this project, under $50
  This can be done more cheaply, it is only an example!
