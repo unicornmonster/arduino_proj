@@ -1,0 +1,11 @@
+Since the photos are hard to make out, here's how this project is wired. 
+ 
+GND on the sensor is linked to ground on the MKR1000 (white wire)
+VCC on the sensor is linked to 5V on the MKR1000 (orange wire)
+Trig on the sensor is linked to A2 on the MKR1000 (red wire)
+Echo on the sensor is connected to A1 on the MKR1000 (green wire)**
+
+** resistors configured for green wire and ground as a voltage 
+divider circuit (ref: http://www.ohmslawcalculator.com/voltage-divider-calculator)
+R1 is 15, R2 is 27 in this config.
+This is kind of hard to see in the breadboard picture. Sorry. 
