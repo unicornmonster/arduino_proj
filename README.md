@@ -26,6 +26,11 @@ This is a quick DIY Arduino intruder alarm, based on the project by Wirebeings:
  
  Total cost for this project, under $50
  This can be done more cheaply, it is only an example!
-  
+ 
+ Here is the setup guide for the MKR1000:
+ https://www.arduino.cc/en/Guide/MKR1000
+ 
+ You CAN use the Arduino web IDE: https://create.arduino.cc/editor
+ But, I used the software install: https://www.arduino.cc/en/Guide/HomePage
  
  
