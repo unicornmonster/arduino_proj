@@ -4,7 +4,9 @@ This is a quick DIY Arduino intruder alarm, based on the project by Wirebeings:
 (http://wirebeings.com/arduino-intruder-alarm.html)
  
  The code here is slightly modified from the version found on that site, because 
- the hardware this uses is slightly different.
+ the hardware this uses is slightly different. Yes, there are bugs in the code. 
+ I decided to leave them in place to give people an excuse to learn what the code
+ is doing. It should still work, even with the bugs!
  
  The hardware this project uses is listed below. The Wirebeings project lists 
  a different hardware set. You can feel free to experiment with your own. You
